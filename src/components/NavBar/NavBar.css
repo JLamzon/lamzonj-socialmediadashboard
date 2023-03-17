@@ -1,0 +1,89 @@
+/* .navBar > *{
+    justify-content: space-evenly;
+} */
+
+@font-face {
+    font-family: Inter-VariableFont_slnt,wght;
+    src: url(../../assets/Inter-VariableFont_slnt\,wght.ttf);
+
+    font-family: Inter-ExtraBold;
+    src: url(../../assets/Inter-ExtraBold.ttf);
+}
+
+
+.darkMode{
+    font-family: Inter-ExtraBold;;
+    color: hsl(228, 12%, 44%);
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+
+}
+
+.noSidePadding{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 2rem;
+}
+
+.title{
+    font-family: Inter-ExtraBold;
+    font-size: 28px;
+    display: flex;
+    align-items: end;
+    color: hsl(230, 17%, 14%);
+}
+
+@media only screen and (max-width: 525px) {
+    .title{
+        font-size: 25px;
+    }
+
+    .navFlex{
+        display: grid;
+    }
+
+    .darkModeSection > *{
+        width: 100%;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+
+    .toggleSwitch{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .divider{
+        height: 1px;
+        background-color: hsl(228, 12%, 44%)
+    }
+
+    .totalFollowers{
+        padding-bottom: 10px;
+    }
+  }
+
+.totalFollowers{
+    font-family: Inter-ExtraBold;
+    font-size: 14px;
+    color: hsl(228, 12%, 44%);
+}
+
+.darkModeSection{
+    display: flex;
+    justify-content: flex-end;
+    gap: .5em;
+}
+
+.darkModeToggle{
+    color: red;
+}
+
+.noSidePadding{
+    padding-bottom: 2rem;
+}
+
+.toggle{
+    background-color: red;
+}

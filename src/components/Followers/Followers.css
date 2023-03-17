@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Inter-VariableFont_slnt,wght;
+    src: url(../../assets/Inter-VariableFont_slnt\,wght.ttf);
+
+    font-family: Inter-ExtraBold;
+    src: url(../../assets/Inter-ExtraBold.ttf);
+}
+
+@media (max-width: 900px) { 
+        .fullDash{
+            padding-left: 1rem;
+            padding-right: 1rem !important;
+        }
+    }
+    
+.followCards {
+    gap: 2em;
+}
+
+.followCards > * {
+    outline: 1px black;
+    background-color: hsl(227, 47%, 96%);
+}
+
+.handleName
+{
+    gap: .5em;
+    display: flex;
+    padding-top: 1.5rem;
+}
+
+.cardsBox {
+
+    min-height: 230px;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.cardsBox > *{
+    justify-content: center;
+    align-items: center;
+}
+
+.displayFlexOnly{
+    display: flex;
+    padding-top: 1.5rem;
+    gap: .3em;
+}
+
+p{
+    margin: 0;
+}
+
+.facebookBar {
+    height: 4px;
+    width: 100%;
+    background-color: hsl(211, 100%, 50%);
+    border-radius: 7px 7px 0 0;
+  }
+
+  .twitterBar{
+    height: 4px;
+    width: 100%;
+    background-color:hsl(211, 100%, 50%);
+    border-radius: 7px 7px 0 0;
+  }
+
+  .instagramBar{
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    border-radius: 7px 7px 0 0;
+  }
+
+  .youtubeBar{
+    height: 4px;
+    width: 100%;
+    background-color:hsl(348, 97%, 39%);
+    border-radius: 7px 7px 0 0;
+  }
+
+.overViewMiddleInfo{
+    padding-top: .75rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-style: Inter-ExtraBold;
+}
+
+.headerFont{
+    font-family: Inter-ExtraBold;
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(228, 12%, 44%);
+}
+
+.followersText{
+    letter-spacing: 4px;
+    font-size: 14px;
+    color: hsl(228, 12%, 44%);
+}
+
+.percentFontPlus{
+    color: hsl(163, 72%, 41%) !important;
+}
+
+.percentFontNegative{
+    color: hsl(356, 69%, 56%);
+}

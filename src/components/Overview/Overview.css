@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Inter-ExtraBold;
+  src: url(../../assets/Inter-ExtraBold.ttf);
+}
+
+.overview {
+    padding-top: 1rem;
+    gap: 2em;
+}
+
+@media only screen and (max-width: 1367px) {
+
+  .overview {
+      gap: 1em;
+  }
+}
+
+.overview > *{
+    min-width: 230px !important;
+    min-height: 120px;
+}
+
+.overViewElements{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: hsl(227, 47%, 96%);
+        padding-left: .5em;
+        padding-right: .5em;
+        overflow: hidden;
+        border-radius: 7px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.overviewSpacing{
+    padding-top: 1.5rem;
+  }
+
+  .overviewSpace{
+    padding-left: .5em;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  /* img{
+    margin: 0;
+  } */
+
+  .iconPlace {
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+align-items: end;
+  }
+
+
+
+  .overviewPercent{
+    display: flex;
+    padding-top: 1.8rem;
+    
+  }
+
+
+  .itemSpace
+  {
+    padding-top: .7rem;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .totalNumberFont{
+    font-style: Inter-ExtraBold;
+    font-size: 13px;
+    font-weight: 700;
+    color: hsl(228, 12%, 44%);
+  }
+
+  .overviewTitle{
+    font-family: Inter-ExtraBold;
+    font-size: 24px;
+    color: hsl(228, 12%, 44%);
+  }
+
+  .overviewBottomPadding
+  {
+    padding-bottom: 8rem;
+  }
+
+  .percentFontPlus{
+    color: hsl(163, 72%, 41%) !important;
+}
+
+.percentFontNegative{
+    color: hsl(356, 69%, 56%);
+}

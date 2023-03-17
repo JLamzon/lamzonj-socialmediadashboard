@@ -1,0 +1,66 @@
+
+
+.dark .title {
+    color: hsl(0, 0%, 100%);
+}
+
+.dark {
+    background-color: hsl(230, 17%, 14%);
+}
+
+.dark body{
+    background-color: hsl(230, 17%, 14%);
+    width: 100%;
+    height: 100vh;
+  }
+
+
+.title .dark{
+    color: blue;
+}
+
+.dark .cardsBox{
+    background-color: hsl(228, 28%, 20%);
+}
+
+.dark .overViewElements{
+    background-color: hsl(228, 28%, 20%);
+}
+
+.dark .totalNumberFont{
+    color: hsl(228, 34%, 66%);
+}
+
+.dark .itemSpace{
+    color: hsl(0, 0%, 100%);
+}
+
+.dark .overviewTitle{
+    color: hsl(0, 0%, 100%);
+}
+
+.dark .overViewMiddleInfo{
+    color: hsl(0, 0%, 100%);
+}
+
+.dark .followersText{
+    color: hsl(228, 34%, 66%);
+}
+
+.dark .headerFont{
+    color: hsl(228, 34%, 66%);
+}
+
+/* Navbar */
+
+.dark .totalFollowers{
+    color: hsl(228, 34%, 66%);
+}
+
+.dark .darkMode
+{
+    color: hsl(228, 34%, 66%);;
+}
+
+
+/* Overview cards */
