@@ -20,6 +20,7 @@
 .followCards > * {
     outline: 1px black;
     background-color: hsl(227, 47%, 96%);
+    width: 230px;
 }
 
 .handleName

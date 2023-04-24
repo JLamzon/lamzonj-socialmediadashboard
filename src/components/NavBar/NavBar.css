@@ -2,6 +2,25 @@
     justify-content: space-evenly;
 } */
 
+.fullDash{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 507px){
+    .fullDash{
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
 @font-face {
     font-family: Inter-VariableFont_slnt,wght;
     src: url(../../assets/Inter-VariableFont_slnt\,wght.ttf);
@@ -10,14 +29,12 @@
     src: url(../../assets/Inter-ExtraBold.ttf);
 }
 
-
 .darkMode{
     font-family: Inter-ExtraBold;;
     color: hsl(228, 12%, 44%);
     display: flex;
     justify-content: flex-end;
     font-size: 14px;
-
 }
 
 .noSidePadding{
@@ -36,7 +53,7 @@
 
 @media only screen and (max-width: 525px) {
     .title{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .navFlex{
@@ -82,8 +99,21 @@
 
 .noSidePadding{
     padding-bottom: 2rem;
+    max-width: 1024px;
 }
 
 .toggle{
-    background-color: red;
+    background-color: red !important;
+}
+
+.element.style{
+    background-color: black !important;
+}
+
+.react-switch-handle{
+    background-color: black !important;
+}
+
+Switch{
+    background-color: black;
 }
